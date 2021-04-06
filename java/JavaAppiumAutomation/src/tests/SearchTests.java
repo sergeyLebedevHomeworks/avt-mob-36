@@ -4,6 +4,8 @@ import lib.CoreTestCase;
 import lib.ui.SearchPageObject;
 import org.junit.Test;
 
+import java.time.Duration;
+
 public class SearchTests extends CoreTestCase {
 
 

@@ -154,7 +154,7 @@ public class MyListsTests extends CoreTestCase {
         MyListsPageObject.clickByArticleTitle("JavaScript");
         ArticlePageObject.waitForTitleElement();
         ArticlePageObject.assertElementPresent(
-                By.id("org.wikipedia:id/view_page_title_text"),
+                "org.wikipedia:id/view_page_title_text",
                 "Cannot find article title"
         );
 
